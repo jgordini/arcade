@@ -187,3 +187,12 @@
 
 # 2024-10-01 12:40:30.297123
 +/git deploy
+
+# 2024-10-01 12:40:42.748769
++/exit
+
+# 2024-10-01 12:43:49.869001
++The bottom two rows are correct. The image is overflowing in the top two rows. 
+
+# 2024-10-01 12:44:43.502056
++/git deploy
