@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcade</title>
-    <link rel="stylesheet" href="path/to/your/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="uk-grid uk-text-left uk-flex-middle" uk-margin="margin: uk-margin-top">
-        <div class="uk-width-1-2@m uk-text-center uk-first-column">
-            <div class="uk-inline-clip uk-transition-toggle">
-                <img src="/it/home/images/pages/Arcade/CatchAPhish.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="Catch-A-Phish" />
-                <div class="uk-overlay-primary uk-position-cover uk-transition-fade">
-                    <div class="uk-position-center">
-                        <span class="uk-icon uk-overlay-icon" uk-overlay-icon="">
-                            <svg width="40" height="40" viewBox="0 0 40 40">
-                                <rect x="19" y="0" width="1" height="40"></rect>
-                                <rect x="0" y="19" width="40" height="1"></rect>
-                            </svg>
-                        </span>
-                    </div>
+    <div class="container text-left d-flex align-items-center mt-3">
+        <div class="col-md-6 text-center">
+            <div class="position-relative">
+                <img src="/it/home/images/pages/Arcade/CatchAPhish.jpg" class="img-fluid" alt="Catch-A-Phish" />
+                <div class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center" style="background-color: rgba(0, 0, 0, 0.5);">
+                    <span class="icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <rect x="19" y="0" width="1" height="40"></rect>
+                            <rect x="0" y="19" width="40" height="1"></rect>
+                        </svg>
+                    </span>
                 </div>
             </div>
         </div>
 
-        <div class="uk-width-1-2@m uk-margin-top uk-first-column">
-            <div class="uk-panel uk-padding uk-width-1-1">
-                <h3 class="uk-h3">Catch-A-Phish</h3>
+        <div class="col-md-6 mt-3">
+            <div class="p-3 w-100">
+                <h3>Catch-A-Phish</h3>
 
-                <div class="uk-margin">
+                <div class="mt-3">
                     <p>
                         We’ve got too many phish in the waters, so it's time to reel them in.
                         During the period, click on as many phish as you can to catch them. While
                         you’re playing, catch up on some interesting phish facts.
                     </p>
-                    <div class="tw-mt-6">
+                    <div class="mt-4">
                         <a href="https://www.uab.edu/it/home/catch-a-phish" class="btn btn-primary">
                             Catch-A-Phish
                         </a>
