@@ -4,3 +4,165 @@
 
 # 2024-10-01 11:31:51.051749
 +/exit
+
+# 2024-10-01 11:34:13.658174
++y
+
+# 2024-10-01 11:35:09.075616
++rebuild arcade.html in bootstrap
+
+# 2024-10-01 11:38:39.948985
++add bootstrap to arcade.html
+
+# 2024-10-01 11:40:43.758061
++/undo
+
+# 2024-10-01 11:41:44.960967
++/exit
+
+# 2024-10-01 11:42:18.749791
++make arcade.html valid
+
+# 2024-10-01 11:42:21.344362
++y
+
+# 2024-10-01 11:45:14.872412
++make arcade.html valid html
+
+# 2024-10-01 11:45:33.364005
++/exit
+
+# 2024-10-01 11:47:10.509202
++make arcade.html valid html
+
+# 2024-10-01 11:47:45.483130
++n
+
+# 2024-10-01 11:47:47.764143
++/undo
+
+# 2024-10-01 11:48:06.772817
++/exit
+
+# 2024-10-01 11:53:17.422567
++/exot
+
+# 2024-10-01 11:53:37.285650
++make arcade.html valid html
+
+# 2024-10-01 11:54:00.055865
++y
+
+# 2024-10-01 11:54:00.061832
++/run open arcade.html
+
+# 2024-10-01 11:54:25.605211
++convert arcade.html to bootstrap
+
+# 2024-10-01 11:54:39.214420
++y
+
+# 2024-10-01 11:54:39.219824
++/run open arcade.html
+
+# 2024-10-01 11:57:12.930011
++make image on left be https://picsum.photos/id/237/200/300
+
+# 2024-10-01 11:57:16.448163
++y
+
+# 2024-10-01 11:58:33.218018
++on hover replace image with gifs/CatchAPhish.gif
+
+# 2024-10-01 11:58:36.105416
++y
+
+# 2024-10-01 12:02:35.739081
++put image on left
+
+# 2024-10-01 12:03:33.836849
++put placeholder and gif on left and text and button on right
+
+# 2024-10-01 12:04:14.368230
++align image and text top
+
+# 2024-10-01 12:04:49.020538
++make smooth transition between hover state for image
+
+# 2024-10-01 12:05:34.502874
++/undo
+
+# 2024-10-01 12:05:55.499004
++make transition between placeholder and gif on hover
+
+# 2024-10-01 12:06:22.984375
++/undo
+
+# 2024-10-01 12:11:42.094535
++use jquery to make a smooth mousover image transition
+
+# 2024-10-01 12:13:41.115106
++/undo
+
+# 2024-10-01 12:13:50.996439
++commit changes
+
+# 2024-10-01 12:13:56.751388
++y
+
+# 2024-10-01 12:13:56.758734
++/run git add arcade.html
+
+# 2024-10-01 12:13:56.895577
++/run git commit -m "feat: implement smooth image transition on hover using jQuery"
+
+# 2024-10-01 12:14:10.875100
++crossfade between images on hover
+
+# 2024-10-01 12:16:36.041474
++duplicate this card 3 times on the page. alternate the photo side left and right.
+
+# 2024-10-01 12:17:00.723421
++/undo
+
+# 2024-10-01 12:18:05.227584
++add three more rows using this template
+
+# 2024-10-01 12:19:04.833302
++make this page pretty
+
+# 2024-10-01 12:19:52.713612
++/undo
+
+# 2024-10-01 12:20:40.009520
++add three new rows for Catch-A-Phish game in arcade.html add spacing and make pretty
+
+# 2024-10-01 12:22:00.691102
++make sure the images do not overflow the container
+
+# 2024-10-01 12:22:19.430863
++/undo
+
+# 2024-10-01 12:23:52.912377
++no overflow on larger screens
+
+# 2024-10-01 12:24:10.066859
++/undo
+
+# 2024-10-01 12:24:43.744772
++cards should be vertical on mobile
+
+# 2024-10-01 12:25:18.812966
++/undo
+
+# 2024-10-01 12:25:56.689051
++stack image on top then text and button on mobile devices
+
+# 2024-10-01 12:26:12.540786
++/undo
+
+# 2024-10-01 12:28:04.859976
++make a new file called hover.html that just has an example of the image and the hover crossfade in it
+
+# 2024-10-01 12:29:04.316198
++/exit
