@@ -196,3 +196,12 @@
 
 # 2024-10-01 12:44:43.502056
 +/git deploy
+
+# 2024-10-01 12:46:20.052820
++add 2024VideogamesBanner_v1.mp4 as a full-width banner at the top. do not display on mobile 
+
+# 2024-10-01 12:48:06.111663
++/git commit
+
+# 2024-10-01 12:48:21.708687
++/git deploy
