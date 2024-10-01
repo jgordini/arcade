@@ -13,6 +13,7 @@
       .image-container {
         position: relative;
         width: 100%;
+        margin-bottom: 20px;
       }
       .image-container img {
         position: absolute;
@@ -20,6 +21,7 @@
         left: 0;
         width: 100%;
         transition: opacity 0.5s ease-in-out;
+        border-radius: 10px;
       }
       .image-container img.top {
         opacity: 0;
@@ -27,10 +29,23 @@
       .image-container:hover img.top {
         opacity: 1;
       }
+      .card {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 30px;
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
     </style>
   </head>
   <body>
-    <div class="container text-left d-flex align-items-center mt-3">
+    <div class="container text-left d-flex align-items-center mt-3 card">
       <div class="row">
         <div class="col-md-6 text-center">
           <div class="image-container">
@@ -71,6 +86,132 @@
         </div>
       </div>
     </div>
+    <div class="container text-left d-flex align-items-center mt-3 card">
+      <div class="row">
+        <div class="col-md-6 order-md-2 text-center">
+          <div class="image-container">
+            <img
+              src="https://picsum.photos/id/238/600/300"
+              class="img-fluid"
+              alt="Placeholder"
+            />
+            <img
+              src="gifs/CatchAPhish.gif"
+              class="img-fluid top"
+              alt="Catch-A-Phish"
+            />
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-3 order-md-1">
+          <div class="p-3 w-100">
+            <h3>Catch-A-Phish</h3>
+
+            <div class="mt-3">
+              <p>
+                We’ve got too many phish in the waters, so it's time to reel
+                them in. During the period, click on as many phish as you can to
+                catch them. While you’re playing, catch up on some interesting
+                phish facts.
+              </p>
+              <div class="mt-4">
+                <a
+                  href="https://www.uab.edu/it/home/catch-a-phish"
+                  class="btn btn-primary"
+                >
+                  Catch-A-Phish
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-left d-flex align-items-center mt-3 card">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <div class="image-container">
+            <img
+              src="https://picsum.photos/id/239/600/300"
+              class="img-fluid"
+              alt="Placeholder"
+            />
+            <img
+              src="gifs/CatchAPhish.gif"
+              class="img-fluid top"
+              alt="Catch-A-Phish"
+            />
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-3">
+          <div class="p-3 w-100">
+            <h3>Catch-A-Phish</h3>
+
+            <div class="mt-3">
+              <p>
+                We’ve got too many phish in the waters, so it's time to reel
+                them in. During the period, click on as many phish as you can to
+                catch them. While you’re playing, catch up on some interesting
+                phish facts.
+              </p>
+              <div class="mt-4">
+                <a
+                  href="https://www.uab.edu/it/home/catch-a-phish"
+                  class="btn btn-primary"
+                >
+                  Catch-A-Phish
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-left d-flex align-items-center mt-3 card">
+      <div class="row">
+        <div class="col-md-6 order-md-2 text-center">
+          <div class="image-container">
+            <img
+              src="https://picsum.photos/id/240/600/300"
+              class="img-fluid"
+              alt="Placeholder"
+            />
+            <img
+              src="gifs/CatchAPhish.gif"
+              class="img-fluid top"
+              alt="Catch-A-Phish"
+            />
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-3 order-md-1">
+          <div class="p-3 w-100">
+            <h3>Catch-A-Phish</h3>
+
+            <div class="mt-3">
+              <p>
+                We’ve got too many phish in the waters, so it's time to reel
+                them in. During the period, click on as many phish as you can to
+                catch them. While you’re playing, catch up on some interesting
+                phish facts.
+              </p>
+              <div class="mt-4">
+                <a
+                  href="https://www.uab.edu/it/home/catch-a-phish"
+                  class="btn btn-primary"
+                >
+                  Catch-A-Phish
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script>
       $(document).ready(function () {
         $("#catch-a-phish-image").hover(
